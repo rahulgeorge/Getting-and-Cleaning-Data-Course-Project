@@ -5,7 +5,7 @@ CodeBook done by Rahul George as part of Getting and Cleaning Data Course Projec
 Plainly executing the R Script will be sufficient to generate the tidy data (tidyData.txt) as required by the final step in the project. The script downloads, unzips and processes the data as described below to generate the final tidy data output.
 
 ## Source Data Information
-The source data is from Human Activity Recognition Using Smartphones Data Set under The UCI Machine Learning Repository. Complete information about the dataset can be obtained from the [Original Source] (http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones). Data can be directly downloaded from this [Original Source] (https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip).
+The source data is from Human Activity Recognition Using Smartphones Data Set under The UCI Machine Learning Repository. Complete information about the dataset can be obtained from the [Original Source](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones). Data can be directly downloaded from this [Original Source](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip).
 
 ## About R Script
 R Script performs a total of 5 actions as required by the project. Each process is explained below with its role in processing the data. Please note that Step 4 requested by the project is done as first step to easily work with data.
