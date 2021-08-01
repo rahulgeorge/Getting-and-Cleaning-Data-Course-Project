@@ -10,7 +10,8 @@ The source data is from Human Activity Recognition Using Smartphones Data Set un
 ## About R Script
 R Script performs a total of 5 actions as required by the project. Each process is explained below with its role in processing the data. Please note that Step 4 requested by the project is done as first step to easily work with data.
 
-###### **Action 4** Labeling dataset with descriptive variable names
+> **Action 4** Labeling dataset with descriptive variable names
+
 Both training and testing data is labelled using information in features.txt document. y & subject documents are labelled `activityID` and `subjectID`. `activityLabels` read from activity_labels.txt document is labelled as `activityID` & `activityType`. 
 
 Action 4 is done in the beginning to make the rest code of the code more readable.
