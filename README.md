@@ -7,7 +7,7 @@ Repo created for submission of week 4 assignment of Getting and Cleaning Data co
 3. **tidyData.txt** : Output file as processed in the final step of the project
 
 ## R Script
-R Script performs the following action as required by the project. Please note that Step 4 requested by the project is done as first step to easily work with data.
+R Script performs the following action as required by the project. A complete description of the script is provided as part of the CodeBook. Please note that Step 4 requested by the project is done as first step to easily work with data.
 1. **Action 4** - Labeling dataset with descriptive variable names
 2. **Action 1** - Merges the training and the test sets to create one data set.
 3. **Action 2** - Extracting Mean & Standard Deviation
