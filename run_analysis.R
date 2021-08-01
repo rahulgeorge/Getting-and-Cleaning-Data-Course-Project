@@ -42,7 +42,7 @@ colnames(activityLabels) <- c("activityID", "activityType")
 #Action 1 - Merges the training and the test sets to create one data set.
 mergedTest <- cbind(yTest, subjectTest, xTest) #Merging all testing data to form ActivityID, SubjectID & Features
 mergedTrain <- cbind(yTrain, subjectTrain, xTrain) #Merging all training data to form ActivityID, SubjectID & Features
-completeData <- rbind(mergedTest, mergedTrain)
+completeData <- rbind(mergedTest, mergedTrain) #Training and testing data is merged to form a single dataset
 
 #Action 2 - Extracting Mean & Standard Deviation 
 colNames <- colnames(completeData) #Extracting column names of the final merged dataset
