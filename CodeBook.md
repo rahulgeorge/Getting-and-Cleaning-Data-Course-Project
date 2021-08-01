@@ -38,3 +38,11 @@ Testing and training data is individually column binded in the order y, subject 
 library `dplyr` is used to group the labelled dataset in **Action 3** by `activtityType` & `subjectID`. The grouped tbl is then processed through `summarise_all()` function to find mean for all the columns. The output is then written into a text file named `tidyData.txt`.
 
 All the processing is conducted within a folder created by the script called `workingData` within the default working directory.
+
+## About Variables
+- `xTest`, `yTest`, `subjectTest`, `xTrain`, `yTrain` & `subjectTrain` contain data from the downloaded files. 
+- `features` & `activityLabels` contain labeling information from respective downloaded files
+- `mergedTest` and `mergedTrain` contain merged testing and training data to include activtiy and subject IDs. `completeData` contains the combined final dataset.
+- `meanStdData` contains just the mean and standard deviation data collected from the complete dataset. `meadStdData_withActivity` contains the mean and standard deviation data combined with activity labels
+- `averageSummary` contains the final dataset that is output to `tidyData.txt`
+
